@@ -1,0 +1,14 @@
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\bin\Debug\netcoreapp3.1\Test.Services.deps.json
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\bin\Debug\netcoreapp3.1\Test.Services.dll
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\bin\Debug\netcoreapp3.1\Test.Services.pdb
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\bin\Debug\netcoreapp3.1\Test.Models.dll
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\bin\Debug\netcoreapp3.1\Test.Repository.dll
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\bin\Debug\netcoreapp3.1\Test.Models.pdb
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\bin\Debug\netcoreapp3.1\Test.Repository.pdb
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\obj\Debug\netcoreapp3.1\Test.Services.csprojAssemblyReference.cache
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\obj\Debug\netcoreapp3.1\Test.Services.AssemblyInfoInputs.cache
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\obj\Debug\netcoreapp3.1\Test.Services.AssemblyInfo.cs
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\obj\Debug\netcoreapp3.1\Test.Services.csproj.CoreCompileInputs.cache
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\obj\Debug\netcoreapp3.1\Test.Services.csproj.CopyComplete
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\obj\Debug\netcoreapp3.1\Test.Services.dll
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\obj\Debug\netcoreapp3.1\Test.Services.pdb

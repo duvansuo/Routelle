@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gMrMt2Ui//smGtajJw0bXBJwX5YLyxNfAPG8n5qx1HYbBNs8QaApWDU7S2OOfDK+iGnMCt1ZQpKF9XSVmtwfGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Duvan\\Desktop\\Duvan\\Test\\Test.Models\\Test.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Duvan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Duvan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
