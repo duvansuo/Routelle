@@ -84,8 +84,7 @@ namespace Test.Services
         }
         private List<WinningBetDto> GetWinner(List<BetDto> listBetDto)
         {
-            //int WinningNumber = new Random().Next(0, 37);
-            int WinningNumber = 21;
+            int WinningNumber = new Random().Next(0, 37);
             resultBets.WinningColor = (WinningNumber % 2 == 0 ? Constants.RED : Constants.BLACK);
             resultBets.WinningNumber = (short)WinningNumber;
             List<WinningBetDto> winningBetDto = CalculateProfitByNumber(listBetDto.Where(x => x.Number == WinningNumber).ToList());

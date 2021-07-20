@@ -45,7 +45,7 @@ namespace Test.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex);
             }
         }
-        [HttpPut]
+        [HttpPut("Open")]
         public async Task<ActionResult<string>> Open(Guid rouletteId)
         {
             try

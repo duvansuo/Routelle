@@ -39,7 +39,7 @@ namespace Test.Controllers
 
             }
         }
-        [HttpPut]
+        [HttpPut("Close")]
         public async Task<ActionResult> CloseBet(Guid rouletteId)
         {
             try
