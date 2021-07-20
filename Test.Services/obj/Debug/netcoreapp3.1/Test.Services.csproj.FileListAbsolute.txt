@@ -12,3 +12,5 @@ C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\obj\Debug\netcoreapp3.1\Test.Ser
 C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\obj\Debug\netcoreapp3.1\Test.Services.csproj.CopyComplete
 C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\obj\Debug\netcoreapp3.1\Test.Services.dll
 C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\obj\Debug\netcoreapp3.1\Test.Services.pdb
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\bin\Debug\netcoreapp3.1\Test.Extensions.dll
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Services\bin\Debug\netcoreapp3.1\Test.Extensions.pdb

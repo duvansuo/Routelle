@@ -6,7 +6,7 @@ namespace Test.Models
 {
  public   class ValidateDto
     {
-        public bool Status { get; set; };
+        public bool Status { get; set; }
         public string Mesage { get; set; }
     }
 }

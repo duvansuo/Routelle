@@ -36,10 +36,14 @@ namespace Test
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
-            var multiplexer = ConnectionMultiplexer.Connect("localhost");
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            var multiplexer = ConnectionMultiplexer.Connect(Environment.GetEnvironmentVariable("ServerName"));
             services.AddScoped(s => multiplexer.GetDatabase());
             services.AddScoped<IRouletteService, RouletteService>();
+            services.AddScoped<IBetService, BetService>();
             services.AddScoped<IRouletteRepository, RouletteRepository>();
+            services.AddScoped<IBetRepository, BetRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -33,20 +33,6 @@ namespace Test.Controllers
             }
         }
 
-        [HttpPut]
-        public async Task<ActionResult<string>> Open(Guid rouletteId)
-        {
-            try
-            {
-                var resultId = await _IRouletteService.OpenRoulette(rouletteId);
-                if (resultId) return Ok(new { state = true, Mensage = Constants.SUCCESSFUL});
-                return BadRequest(new { state = false, Mensage = Constants.ROULETTENOWOPEN});
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status400BadRequest, new { state = false, Mensage = ex.Message });
-            }
-        }
         [HttpGet]
         public async Task<ActionResult<string>> GetAll()
         {
@@ -59,6 +45,21 @@ namespace Test.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex);
             }
         }
+        [HttpPut]
+        public async Task<ActionResult<string>> Open(Guid rouletteId)
+        {
+            try
+            {
+                var resultId = await _IRouletteService.ChangeStateRoulette(rouletteId,true);
+                if (resultId) return Ok(new { state = true, Mensage = Constants.SUCCESSFUL });
+                return BadRequest(new { state = false, Mensage = Constants.ROULETTENOWOPEN });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, new { state = false, Mensage = ex.Message });
+            }
+        }
+       
 
     }
 }

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8OcmHmAst6WzRhjlr+wLy1WLFRcB3KqQEviFPOCs2nHnlrBy/ck9zWJAmACRKUYlSLsnRayT4+gCbHu8pa9dfw==",
+  "dgSpecHash": "2bQMh7rnLBJOydzai5gUExmnww8GVtkhvTrxHstxfL/Y1TnHUJFdyuwEB5Oa7HOHOFsP92TqX/1Pqza3UNXDbw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Duvan\\Desktop\\Duvan\\Test\\Test.Services\\Test.Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Duvan\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Duvan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Duvan\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Duvan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Duvan\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
@@ -16,6 +18,7 @@
     "C:\\Users\\Duvan\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0\\system.diagnostics.performancecounter.5.0.0.nupkg.sha512",
     "C:\\Users\\Duvan\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
     "C:\\Users\\Duvan\\.nuget\\packages\\system.io.pipelines\\5.0.0\\system.io.pipelines.5.0.0.nupkg.sha512",
+    "C:\\Users\\Duvan\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Duvan\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\Duvan\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
     "C:\\Users\\Duvan\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",

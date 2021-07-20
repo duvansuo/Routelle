@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 using Test.Extensions;
@@ -7,6 +8,7 @@ using Test.Services.Interfaces;
 
 namespace Test.Controllers
 {
+    [Route("[controller]")]
     [ApiController]
     public class BetController : Controller
     {
@@ -16,6 +18,7 @@ namespace Test.Controllers
         {
             _IBetService = iBetService;
         }
+        [HttpPost]
         public async Task<IActionResult> Create(BetDto betDto)
         {
             try
@@ -34,6 +37,19 @@ namespace Test.Controllers
             {
                 return BadRequest(ex.Message);
 
+            }
+        }
+        [HttpPut]
+        public async Task<ActionResult> CloseBet(Guid rouletteId)
+        {
+            try
+            {
+                var result = await _IBetService.CloseBet(rouletteId);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex);
             }
         }
     }

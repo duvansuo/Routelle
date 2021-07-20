@@ -10,3 +10,5 @@ C:\Users\Duvan\Desktop\Duvan\Test\Test.Repository\obj\Debug\netcoreapp3.1\Test.R
 C:\Users\Duvan\Desktop\Duvan\Test\Test.Repository\obj\Debug\netcoreapp3.1\Test.Repository.csproj.CopyComplete
 C:\Users\Duvan\Desktop\Duvan\Test\Test.Repository\obj\Debug\netcoreapp3.1\Test.Repository.dll
 C:\Users\Duvan\Desktop\Duvan\Test\Test.Repository\obj\Debug\netcoreapp3.1\Test.Repository.pdb
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Repository\bin\Debug\netcoreapp3.1\Test.Extensions.dll
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Repository\bin\Debug\netcoreapp3.1\Test.Extensions.pdb

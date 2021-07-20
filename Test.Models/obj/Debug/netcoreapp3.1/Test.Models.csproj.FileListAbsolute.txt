@@ -7,3 +7,6 @@ C:\Users\Duvan\Desktop\Duvan\Test\Test.Models\obj\Debug\netcoreapp3.1\Test.Model
 C:\Users\Duvan\Desktop\Duvan\Test\Test.Models\obj\Debug\netcoreapp3.1\Test.Models.csproj.CoreCompileInputs.cache
 C:\Users\Duvan\Desktop\Duvan\Test\Test.Models\obj\Debug\netcoreapp3.1\Test.Models.dll
 C:\Users\Duvan\Desktop\Duvan\Test\Test.Models\obj\Debug\netcoreapp3.1\Test.Models.pdb
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Models\bin\Debug\netcoreapp3.1\Test.Extensions.dll
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Models\bin\Debug\netcoreapp3.1\Test.Extensions.pdb
+C:\Users\Duvan\Desktop\Duvan\Test\Test.Models\obj\Debug\netcoreapp3.1\Test.Models.csproj.CopyComplete

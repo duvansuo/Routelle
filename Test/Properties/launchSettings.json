@@ -16,6 +16,7 @@
       "environmentVariables": {
         "RouletteKey": "Roulette",
         "BetKey": "Bet",
+        "ServerName": "localhost",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },

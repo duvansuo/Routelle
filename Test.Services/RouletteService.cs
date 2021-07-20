@@ -37,17 +37,17 @@ namespace Test.Services
             return await _IRouletteRepository.GetAll();
         }
 
-        public async Task<bool> OpenRoulette(Guid rouletteId)
+        public async Task<bool> ChangeStateRoulette(Guid rouletteId, bool State)
         {
             var exist = await _IRouletteRepository.GetById(rouletteId);
             if (exist != null)
             {
-                if (exist.OpenState == true) return false;
-                exist.OpenState = true;
+                if (exist.OpenState == State) return false;
+                exist.OpenState = State;
                 await _IRouletteRepository.Create(exist);
                 return true;
             }
-            throw new Exception(Constants.ERROROPENROULETTE);
+            throw new Exception(State ? Constants.ERROROPENROULETTE : Constants.ERRORCLOSEROULETTE);
         }
 
         public async Task<bool> ValidRoulette(Guid rouletteId)

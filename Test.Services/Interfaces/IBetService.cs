@@ -10,5 +10,6 @@ namespace Test.Services.Interfaces
     {
         Task<bool> Create(BetDto betDto);
         Task<ValidateDto> ValidateBet(BetDto betDto);
+        Task<ResultBetDto> CloseBet(Guid rouletteId);
     }
 }

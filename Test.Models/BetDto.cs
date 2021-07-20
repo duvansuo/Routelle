@@ -10,7 +10,7 @@ namespace Test.Models
     {
         public Guid BetId { get; set; }
         [Range(minimum: 0, maximum: 36, ErrorMessage = Constants.ERRORNUMBER)]
-        public int Number { get; set; }
+        public short Number { get; set; }
         public string Color { get; set; }
         [Range(minimum: 1, maximum: 10000, ErrorMessage = Constants.ERRORAMOUNT)]
         public double Amount { get; set; }
